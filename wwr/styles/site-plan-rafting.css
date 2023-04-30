@@ -1,3 +1,4 @@
+  /* https://coolors.co/3a4244-c2b18b-ffffff-6d7b82-0e71a5*/
 :root {
     --primary-color: #ffffff;
     --secondary-color: #3a4244;
@@ -44,6 +45,3 @@ nav {
     color: var(--navigation-hover-link-color);
     background-color: var(--navigation-hover-background-color);
   }
-  
-https://coolors.co/3a4244-c2b18b-ffffff-6d7b82-0e71a5
-
