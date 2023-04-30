@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #3a4244;
+    --accent-color: #0e71a5;
+    --additional-accent-color: #c2b18b;
+    --heading-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+    --nav-bg-color: #ffffff;
+    --nav-link-color: #3a4244;
+    --nav-link-hover-color: #c2b18b;
+    --nav-link-hover-bg-color: #3a4244;
+  }
+  
+html{
+    background-color: var(--white);
+    color: var(--outer-space);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+  }
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+p{
+    padding: 25px;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--navigation-background-color);
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+  }
+  
+https://coolors.co/3a4244-c2b18b-ffffff-6d7b82-0e71a5
+
