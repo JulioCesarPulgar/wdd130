@@ -34,6 +34,7 @@ header {
 }
 p{
     padding: 25px;
+    text-align: justify;
 }
   
 nav {
@@ -56,4 +57,8 @@ nav a:link, nav a:visited{
 nav a:hover {
     color: var(--navigation-hover-link-color);
     background-color: var(--navigation-hover-background-color);
+}
+footer{
+  margin-top: 1em;
+  text-align: center;
 }
