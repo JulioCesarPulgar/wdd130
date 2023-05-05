@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/*Class Selectors*/
+/* Class Selectors */
 
 .box{
   margin: 1rem;
@@ -12,6 +12,7 @@
   padding: 1rem;
   background-color: #ddd;
   color: #000;
+  width: 20em;
 }
 
 body{
@@ -20,6 +21,8 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Arial Narrow Bold', sans-serif;
+  height: 2em;
+  margin: 10px;
 }
 
 a{
@@ -59,10 +62,14 @@ main{
 
 main img {
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   float: right;
 }
-  
+
+ul {
+  list-style: none;
+}
+
 aside{
   position: relative;
   margin: 1em;
@@ -92,6 +99,7 @@ main img{
 
 p {
   padding: 0;
+  height: auto;
 }
 
 footer{
