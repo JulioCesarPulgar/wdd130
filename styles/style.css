@@ -116,6 +116,7 @@ margin: 0;
 main img {
 border-radius: 50%;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+float: none;
 }
 
 ul {
@@ -136,11 +137,6 @@ background-color: #eee;
 aside img {
   width: 280px;
   height: 400px;
-}
-
-main img {
-  float: right;
-  margin-right: 20px;
 }
 
 footer {
