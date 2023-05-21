@@ -216,3 +216,66 @@ footer p {
   margin-left: 0;
 }
 
+main {
+  margin: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+#company-info {
+  margin-bottom: 20px;
+}
+
+#map {
+  height: 200px;
+  margin-bottom: 180px;
+}
+
+#map-container {
+  position: relative;
+  z-index: 0;
+}
+
+#employee-profiles {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.employee {
+  text-align: center;
+  width: 30%;
+}
+
+.employee img {
+  width: 100%;
+  height: 350px;
+  object-position: center;
+  margin-bottom: 10px;
+}
+
+#contact-form form {
+  display: grid;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
